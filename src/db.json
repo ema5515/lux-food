@@ -1,0 +1,69 @@
+{
+    "Prezzi": {
+        "0": {
+            "pasto": "Primo",
+            "prezzo": 8,
+            "luxpan": 4,
+            "dipendente": 4
+        },
+        "1": {
+            "pasto": "Secondo",
+            "prezzo": 8,
+            "luxpan": 4,
+            "dipendente": 4
+        },
+        "2": {
+            "pasto": "Compreto",
+            "prezzo": 8,
+            "luxpan": 4,
+            "dipendente": 4
+        },
+        "3": {
+            "pasto": "Pizza",
+            "prezzo": 8,
+            "luxpan": 4,
+            "dipendente": 4
+        }
+    },
+
+    "Dipendenti": {
+        "0": {
+            "nome": "Emanuele",
+            "cognome": "D'Agata"
+        },
+        "1": {
+            "nome": "Vita",
+            "cognome": "Capitaneo"
+        }
+    },
+
+    "Pasti": {
+        "11-2020": {
+            "0": {
+                "nome": "Emanuele",
+                "cognome": "D'Agata",
+                "pasto": "Primo",
+                "prezzo": 10
+            },
+            "1": {
+                "nome": "Emanuele",
+                "cognome": "D'Agata",
+                "pasto": "Primo",
+                "prezzo": 10
+            },
+            "2": {
+                "nome": "Emanuele",
+                "cognome": "D'Agata",
+                "pasto": "Primo",
+                "prezzo": 10
+            },
+            "12": {
+                "nome": "Vita",
+                "cognome": "Capitaneo",
+                "pasto": "Primo",
+                "prezzo": 10
+            }
+        }
+    }
+
+}

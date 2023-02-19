@@ -1,0 +1,421 @@
+body{
+    background-color: #FFF8E8;
+    font-family: 'Montserrat';
+}
+
+
+/* NAVBAR */
+
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 20px;
+}
+.menu-items{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo{
+    display: contents;
+}
+.logo img{
+    margin: -10px 10px;
+    height: 80px;
+}
+
+.navbar-menu{
+    display: flex;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* CARD */
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    border: none;
+    height: 100%;
+    min-height: 150px;
+    position: relative;
+}
+.dip-data{
+    padding: 10px 0;
+}
+.data-div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px 20px; 
+}
+.data-div label{
+    font-weight: 600;
+    color: #000;
+}
+.dip-name{
+    margin-top: 5px;
+}
+.card p{
+    font-weight: 600;
+    display: block;
+}
+
+.user-icon{
+    margin: 10px 0;
+    width: 40px;
+    height: auto;
+}
+.data-icon{
+    margin: 10px;
+    width: 30px;
+}
+
+#add p{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#no-results p{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* CREATE CARD */
+
+.create-card{
+    display: block;
+    z-index: 500;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(50,50,50,0.5);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+}
+.card-form{
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 3px 3px 4px rgb(0 0 0 / 25%);
+    z-index: 700;
+}
+.close{
+    top: 20px;
+    right: 20px;
+    float: right;
+    color: #F5333F;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.form-title{
+    display: contents;
+    color: #234E9C;
+    font-weight: 600;
+}
+
+.form-label{
+    text-align: center;
+    margin: 30px auto 5px;
+}
+.button-div{
+    display: flex;
+}
+.create-card button{
+    width: 200px;
+    color: #FFF8E8;
+    display: block;
+    margin: 35px auto 10px;
+    font-weight: 700;
+}
+.create-button{
+    background-color: #234E9C;
+    border: 2px solid #234E9C;
+}
+.create-button:hover{
+    border: 2px solid #234E9C;
+    color: #234E9C;
+}
+.cancel-button{
+    background-color: #F5333F;
+    border: 2px solid #F5333F;
+}
+.cancel-button:hover{
+    color: #F5333F;
+    border: 2px solid #F5333F;
+}
+
+
+
+/* DATA */
+.calendar-div{
+    width: auto;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+}
+.calendar-img{
+    width: 40px;
+    margin: 10px;
+}
+.calendar-div input{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #234E9C;
+    border: none;
+    margin: auto;
+    background-color: transparent;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../../src/icons/Calendar.png) no-repeat;
+    border-width: thin;
+}
+
+
+
+/* PRICE */
+
+.title{
+    margin: 80px 100px 40px;
+    font-weight: 700;
+    color: #234E9C;
+}
+
+.price-card{
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px; 
+    padding: 20px;
+    position: relative;
+}
+.price-card p{
+    line-height: 0.5;
+}
+.price-header{
+    font-weight: 700;
+}
+.edit{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+}
+
+/* DIPENDENTI */
+
+.dip-card{
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 20px;
+    position: relative; 
+}
+.dip-name{
+    margin: 0;
+    font-weight: 700;
+}
+.dip-add{
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* FOOTER */
+.footer{
+    margin: 100px auto 20px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+}
+input.input-text {
+    width: 60%;
+    margin: 15px auto;
+    display: block;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+}
+
+/* LOGIN */
+.login-page{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+}
+.login-page img{
+    width: 100px;
+}
+.login-page h1{
+    font-weight: 700;
+    color: #234E9C;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login input{
+    width: 350px;
+    height: 40px;
+    border: 2px solid #234E9C;
+    border-radius: 5px;
+    background-color: #FFF8E8;
+    color: #234E9C;
+    margin: 10px;
+}
+.login button{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: #F5333F;
+    border-radius: 5px;
+    border: none;
+    color: #FFF8E8;
+    font-weight: 700;
+}
+.login button:hover{
+    background-color: #234E9C   ;
+}
+
+
+
+.loading-div{
+    width: 50%;
+    height: 100%;
+    transform: translate(50%, 50%);
+    margin: auto;
+    display: block;
+    position: absolute;
+}
+.loading {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    border: 5px solid #234E9C;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.loading-logo {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    position: relative;
+    top: -66px;
+}
+.loading-logo img{
+    width: 45px;
+    position: absolute;
+    margin: auto;
+    border-radius: 3px;
+}
+
+/* REPORTS */
+
+.select-mese-report{
+    background-color: #fff;
+    color: #234E9C;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+.button-report{
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 50px
+}
+.button-report:hover{
+    background-color: #234E9C;
+    color: #fff;
+}
+.button-report-no-active{
+    background-color: #fff;
+    color: #234E9C;
+}
+.button-report-active{
+    background-color: #234E9C;
+    color: #fff;
+}
+
+
+.table-report{
+    margin: auto auto 30px;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border: 4px solid #234E9C;
+    border-radius: 10px;
+    width: 90vw;
+    background-color: #234E9C;
+}
+.table-report thead, tfoot{
+    color: #fff;
+    border-radius: 10px;
+}
+.cell-header, .cell-footer{
+    margin: 10px 20px;
+}
+.table-body-report{
+    background-color: #FFF8E8;
+}
+
+.table-title{
+    margin: 30px auto 0;
+    background-color: #234E9C;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    width: 600px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.callout-attenction{
+    color: rgb(245, 51, 63);
+    background-color:#FFF8E8;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(245, 51, 63, 0.25);
+
+}
