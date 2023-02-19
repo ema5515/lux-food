@@ -4,14 +4,14 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB7rXTX7WbaHQF5Es9OucQMyCgVPQeoj5Y",
+  apiKey: "---",
   authDomain: "luxfood-ema5515.firebaseapp.com",
   databaseURL: "https://luxfood-ema5515-default-rtdb.firebaseio.com",
   projectId: "luxfood-ema5515",
   storageBucket: "luxfood-ema5515.appspot.com",
-  messagingSenderId: "506054308432",
-  appId: "1:506054308432:web:ea70c63b719ce489841755",
-  measurementId: "G-XVQ8255X93"
+  messagingSenderId: "---",
+  appId: "---",
+  measurementId: "---"
   };
   
 const app = initializeApp(firebaseConfig);
